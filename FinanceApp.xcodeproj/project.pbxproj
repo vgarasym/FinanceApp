@@ -20,6 +20,9 @@
 		13D7D3572AEB446C00642AD4 /* Prompt-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 13D7D3562AEB446C00642AD4 /* Prompt-ExtraLightItalic.ttf */; };
 		13D7D3592AEB447C00642AD4 /* Prompt-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 13D7D3582AEB447C00642AD4 /* Prompt-Italic.ttf */; };
 		13D7D35B2AEB448D00642AD4 /* Prompt-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 13D7D35A2AEB448C00642AD4 /* Prompt-MediumItalic.ttf */; };
+		13D7D35D2AEB5DC400642AD4 /* Lato-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 13D7D35C2AEB5DC400642AD4 /* Lato-Bold.ttf */; };
+		13D7D35F2AEB5DD200642AD4 /* Lato-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 13D7D35E2AEB5DD200642AD4 /* Lato-Regular.ttf */; };
+		13D7D3612AEB5ED100642AD4 /* Lato-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 13D7D3602AEB5ED100642AD4 /* Lato-Black.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +41,9 @@
 		13D7D3562AEB446C00642AD4 /* Prompt-ExtraLightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Prompt-ExtraLightItalic.ttf"; sourceTree = "<group>"; };
 		13D7D3582AEB447C00642AD4 /* Prompt-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Prompt-Italic.ttf"; sourceTree = "<group>"; };
 		13D7D35A2AEB448C00642AD4 /* Prompt-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Prompt-MediumItalic.ttf"; sourceTree = "<group>"; };
+		13D7D35C2AEB5DC400642AD4 /* Lato-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Bold.ttf"; sourceTree = "<group>"; };
+		13D7D35E2AEB5DD200642AD4 /* Lato-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Regular.ttf"; sourceTree = "<group>"; };
+		13D7D3602AEB5ED100642AD4 /* Lato-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Black.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +109,9 @@
 		13D7D3502AEB421000642AD4 /* fonts */ = {
 			isa = PBXGroup;
 			children = (
+				13D7D3602AEB5ED100642AD4 /* Lato-Black.ttf */,
+				13D7D35E2AEB5DD200642AD4 /* Lato-Regular.ttf */,
+				13D7D35C2AEB5DC400642AD4 /* Lato-Bold.ttf */,
 				13D7D35A2AEB448C00642AD4 /* Prompt-MediumItalic.ttf */,
 				13D7D3582AEB447C00642AD4 /* Prompt-Italic.ttf */,
 				13D7D3562AEB446C00642AD4 /* Prompt-ExtraLightItalic.ttf */,
@@ -174,9 +183,12 @@
 				1349F1262AD63B63003BF149 /* Preview Assets.xcassets in Resources */,
 				1349F1232AD63B63003BF149 /* Assets.xcassets in Resources */,
 				13D7D3522AEB423700642AD4 /* Agbalumo.ttf in Resources */,
+				13D7D35F2AEB5DD200642AD4 /* Lato-Regular.ttf in Resources */,
 				13D7D3572AEB446C00642AD4 /* Prompt-ExtraLightItalic.ttf in Resources */,
 				13D7D3552AEB444700642AD4 /* Prompt-BoldItalic.ttf in Resources */,
 				13D7D35B2AEB448D00642AD4 /* Prompt-MediumItalic.ttf in Resources */,
+				13D7D3612AEB5ED100642AD4 /* Lato-Black.ttf in Resources */,
+				13D7D35D2AEB5DC400642AD4 /* Lato-Bold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

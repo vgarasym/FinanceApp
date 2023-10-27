@@ -9,6 +9,9 @@
 		<string>Prompt-Italic.ttf</string>
 		<string>Prompt-ExtraLightItalic.ttf</string>
 		<string>Prompt-BoldItalic.ttf</string>
+		<string>Lato-Regular.ttf</string>
+		<string>Lato-Bold.ttf</string>
+		<string>Lato-Black.ttf</string>
 	</array>
 </dict>
 </plist>

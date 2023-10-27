@@ -10,7 +10,7 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         ZStack {
-            Color(.black)
+            LinearGradient(colors: [.black, .gray], startPoint: .bottomLeading, endPoint: .topTrailing)
             VStack {
                 HStack {
                     Button {
@@ -19,17 +19,26 @@ struct ContentView: View {
                         Image(systemName: "line.3.horizontal")
                     }
                     Spacer()
-                    Button {
-                        
-                    } label: {
-                        Image(systemName: "person.fill")
-                    }
                 }
                 .foregroundColor(.white)
-                .font(.system(size: 24))
+                .font(.system(size: 30))
                 .padding(.horizontal, 20)
-                .padding(.vertical, 80)
+                .padding(.vertical, 60)
                 Spacer()
+                
+                ZStack {
+                    Rectangle()
+                        .fill(.white)
+                        .frame(width: 390, height: 450)
+                        .cornerRadius(20)
+                    VStack {
+                        Text("Placeholder")
+                            .frame(maxWidth: .infinity, alignment: .center)
+                            .padding(.bottom, 350)
+                            .padding()
+                            .font(.title)
+                    }
+                }
             }
         }
         .navigationBarBackButtonHidden()

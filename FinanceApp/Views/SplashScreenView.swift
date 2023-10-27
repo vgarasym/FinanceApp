@@ -24,8 +24,6 @@ struct SplashScreenView: View {
                             .resizable()
                             .scaledToFit()
                             .frame(width: 230, height: 230)
-                        Text("FinanceBro")
-                            .font(Font.custom("Prompt-BoldItalic", size: 32))
                     }
                     .scaleEffect(size)
                     .opacity(opacity)

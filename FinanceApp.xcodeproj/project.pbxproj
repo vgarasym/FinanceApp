@@ -23,6 +23,7 @@
 		13D7D35D2AEB5DC400642AD4 /* Lato-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 13D7D35C2AEB5DC400642AD4 /* Lato-Bold.ttf */; };
 		13D7D35F2AEB5DD200642AD4 /* Lato-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 13D7D35E2AEB5DD200642AD4 /* Lato-Regular.ttf */; };
 		13D7D3612AEB5ED100642AD4 /* Lato-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 13D7D3602AEB5ED100642AD4 /* Lato-Black.ttf */; };
+		13D7D3652AEB7C4F00642AD4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13D7D3642AEB7C4F00642AD4 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +45,7 @@
 		13D7D35C2AEB5DC400642AD4 /* Lato-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Bold.ttf"; sourceTree = "<group>"; };
 		13D7D35E2AEB5DD200642AD4 /* Lato-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Regular.ttf"; sourceTree = "<group>"; };
 		13D7D3602AEB5ED100642AD4 /* Lato-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Black.ttf"; sourceTree = "<group>"; };
+		13D7D3642AEB7C4F00642AD4 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +95,7 @@
 				133A7A4F2ADA31D900B1B060 /* Views */,
 				1349F1202AD63B61003BF149 /* ContentView.swift */,
 				1349F1222AD63B63003BF149 /* Assets.xcassets */,
+				13D7D3642AEB7C4F00642AD4 /* LaunchScreen.storyboard */,
 				1349F1242AD63B63003BF149 /* Preview Content */,
 			);
 			path = FinanceApp;
@@ -188,6 +191,7 @@
 				13D7D3552AEB444700642AD4 /* Prompt-BoldItalic.ttf in Resources */,
 				13D7D35B2AEB448D00642AD4 /* Prompt-MediumItalic.ttf in Resources */,
 				13D7D3612AEB5ED100642AD4 /* Lato-Black.ttf in Resources */,
+				13D7D3652AEB7C4F00642AD4 /* LaunchScreen.storyboard in Resources */,
 				13D7D35D2AEB5DC400642AD4 /* Lato-Bold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -341,6 +345,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -372,6 +377,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (

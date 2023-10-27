@@ -29,13 +29,13 @@ struct SplashScreenView: View {
                     .opacity(opacity)
                     .onAppear {
                         withAnimation(.easeIn(duration: 1.2)) {
-                            self.size = 0.9
+                            self.size = 1.2
                             self.opacity = 1.0
                         }
                     }
                 }
                 .onAppear {
-                    DispatchQueue.main.asyncAfter(deadline: .now() + 5.0) {
+                    DispatchQueue.main.asyncAfter(deadline: .now() + 2.5) {
                         withAnimation {
                             self.isActive = true
                         }

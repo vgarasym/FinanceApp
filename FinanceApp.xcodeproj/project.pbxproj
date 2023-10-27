@@ -14,6 +14,12 @@
 		1349F12D2AD64BD3003BF149 /* SignUpPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1349F12C2AD64BD3003BF149 /* SignUpPage.swift */; };
 		1349F12F2AD65AE4003BF149 /* LoginPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1349F12E2AD65AE4003BF149 /* LoginPage.swift */; };
 		1349F1312AD7069A003BF149 /* RegistrationPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1349F1302AD7069A003BF149 /* RegistrationPage.swift */; };
+		13D7D34E2AEB3F8300642AD4 /* SplashScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13D7D34D2AEB3F8300642AD4 /* SplashScreenView.swift */; };
+		13D7D3522AEB423700642AD4 /* Agbalumo.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 13D7D3512AEB423700642AD4 /* Agbalumo.ttf */; };
+		13D7D3552AEB444700642AD4 /* Prompt-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 13D7D3542AEB444700642AD4 /* Prompt-BoldItalic.ttf */; };
+		13D7D3572AEB446C00642AD4 /* Prompt-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 13D7D3562AEB446C00642AD4 /* Prompt-ExtraLightItalic.ttf */; };
+		13D7D3592AEB447C00642AD4 /* Prompt-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 13D7D3582AEB447C00642AD4 /* Prompt-Italic.ttf */; };
+		13D7D35B2AEB448D00642AD4 /* Prompt-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 13D7D35A2AEB448C00642AD4 /* Prompt-MediumItalic.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +31,13 @@
 		1349F12C2AD64BD3003BF149 /* SignUpPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpPage.swift; sourceTree = "<group>"; };
 		1349F12E2AD65AE4003BF149 /* LoginPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPage.swift; sourceTree = "<group>"; };
 		1349F1302AD7069A003BF149 /* RegistrationPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationPage.swift; sourceTree = "<group>"; };
+		13D7D34D2AEB3F8300642AD4 /* SplashScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenView.swift; sourceTree = "<group>"; };
+		13D7D3512AEB423700642AD4 /* Agbalumo.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Agbalumo.ttf; path = ../../../../../Downloads/Agbalumo/Agbalumo.ttf; sourceTree = "<group>"; };
+		13D7D3532AEB438B00642AD4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		13D7D3542AEB444700642AD4 /* Prompt-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Prompt-BoldItalic.ttf"; sourceTree = "<group>"; };
+		13D7D3562AEB446C00642AD4 /* Prompt-ExtraLightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Prompt-ExtraLightItalic.ttf"; sourceTree = "<group>"; };
+		13D7D3582AEB447C00642AD4 /* Prompt-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Prompt-Italic.ttf"; sourceTree = "<group>"; };
+		13D7D35A2AEB448C00642AD4 /* Prompt-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Prompt-MediumItalic.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +58,7 @@
 				1349F12E2AD65AE4003BF149 /* LoginPage.swift */,
 				1349F12C2AD64BD3003BF149 /* SignUpPage.swift */,
 				1349F11E2AD63B61003BF149 /* FinanceAppApp.swift */,
+				13D7D34D2AEB3F8300642AD4 /* SplashScreenView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -68,6 +82,8 @@
 		1349F11D2AD63B61003BF149 /* FinanceApp */ = {
 			isa = PBXGroup;
 			children = (
+				13D7D3532AEB438B00642AD4 /* Info.plist */,
+				13D7D3502AEB421000642AD4 /* fonts */,
 				133A7A4F2ADA31D900B1B060 /* Views */,
 				1349F1202AD63B61003BF149 /* ContentView.swift */,
 				1349F1222AD63B63003BF149 /* Assets.xcassets */,
@@ -82,6 +98,18 @@
 				1349F1252AD63B63003BF149 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		13D7D3502AEB421000642AD4 /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				13D7D35A2AEB448C00642AD4 /* Prompt-MediumItalic.ttf */,
+				13D7D3582AEB447C00642AD4 /* Prompt-Italic.ttf */,
+				13D7D3562AEB446C00642AD4 /* Prompt-ExtraLightItalic.ttf */,
+				13D7D3542AEB444700642AD4 /* Prompt-BoldItalic.ttf */,
+				13D7D3512AEB423700642AD4 /* Agbalumo.ttf */,
+			);
+			path = fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -142,8 +170,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				13D7D3592AEB447C00642AD4 /* Prompt-Italic.ttf in Resources */,
 				1349F1262AD63B63003BF149 /* Preview Assets.xcassets in Resources */,
 				1349F1232AD63B63003BF149 /* Assets.xcassets in Resources */,
+				13D7D3522AEB423700642AD4 /* Agbalumo.ttf in Resources */,
+				13D7D3572AEB446C00642AD4 /* Prompt-ExtraLightItalic.ttf in Resources */,
+				13D7D3552AEB444700642AD4 /* Prompt-BoldItalic.ttf in Resources */,
+				13D7D35B2AEB448D00642AD4 /* Prompt-MediumItalic.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -159,6 +192,7 @@
 				1349F12D2AD64BD3003BF149 /* SignUpPage.swift in Sources */,
 				1349F1212AD63B61003BF149 /* ContentView.swift in Sources */,
 				1349F11F2AD63B61003BF149 /* FinanceAppApp.swift in Sources */,
+				13D7D34E2AEB3F8300642AD4 /* SplashScreenView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -290,6 +324,7 @@
 				DEVELOPMENT_TEAM = XF56M3967G;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FinanceApp/Info.plist;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.finance";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -320,6 +355,7 @@
 				DEVELOPMENT_TEAM = XF56M3967G;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FinanceApp/Info.plist;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.finance";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;

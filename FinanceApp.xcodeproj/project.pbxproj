@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		134810702B049F3300703D72 /* SideMenuHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1348106F2B049F3300703D72 /* SideMenuHeaderView.swift */; };
+		134810722B049F4300703D72 /* SideMenuOptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 134810712B049F4300703D72 /* SideMenuOptionView.swift */; };
+		134810742B049F6D00703D72 /* SideMenuViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 134810732B049F6D00703D72 /* SideMenuViewModel.swift */; };
+		134810762B049FB700703D72 /* SideMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 134810752B049FB700703D72 /* SideMenuView.swift */; };
 		1349F11F2AD63B61003BF149 /* FinanceAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1349F11E2AD63B61003BF149 /* FinanceAppApp.swift */; };
 		1349F1212AD63B61003BF149 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1349F1202AD63B61003BF149 /* ContentView.swift */; };
 		1349F1232AD63B63003BF149 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1349F1222AD63B63003BF149 /* Assets.xcassets */; };
@@ -27,6 +31,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1348106F2B049F3300703D72 /* SideMenuHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuHeaderView.swift; sourceTree = "<group>"; };
+		134810712B049F4300703D72 /* SideMenuOptionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuOptionView.swift; sourceTree = "<group>"; };
+		134810732B049F6D00703D72 /* SideMenuViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuViewModel.swift; sourceTree = "<group>"; };
+		134810752B049FB700703D72 /* SideMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuView.swift; sourceTree = "<group>"; };
 		1349F11B2AD63B61003BF149 /* FinanceApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FinanceApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1349F11E2AD63B61003BF149 /* FinanceAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinanceAppApp.swift; sourceTree = "<group>"; };
 		1349F1202AD63B61003BF149 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -67,6 +75,9 @@
 				1349F12C2AD64BD3003BF149 /* SignUpPage.swift */,
 				1349F11E2AD63B61003BF149 /* FinanceAppApp.swift */,
 				13D7D34D2AEB3F8300642AD4 /* SplashScreenView.swift */,
+				1348106F2B049F3300703D72 /* SideMenuHeaderView.swift */,
+				134810712B049F4300703D72 /* SideMenuOptionView.swift */,
+				134810752B049FB700703D72 /* SideMenuView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -97,6 +108,7 @@
 				1349F1222AD63B63003BF149 /* Assets.xcassets */,
 				13D7D3642AEB7C4F00642AD4 /* LaunchScreen.storyboard */,
 				1349F1242AD63B63003BF149 /* Preview Content */,
+				134810732B049F6D00703D72 /* SideMenuViewModel.swift */,
 			);
 			path = FinanceApp;
 			sourceTree = "<group>";
@@ -204,11 +216,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				1349F1312AD7069A003BF149 /* RegistrationPage.swift in Sources */,
+				134810702B049F3300703D72 /* SideMenuHeaderView.swift in Sources */,
+				134810762B049FB700703D72 /* SideMenuView.swift in Sources */,
 				1349F12F2AD65AE4003BF149 /* LoginPage.swift in Sources */,
 				1349F12D2AD64BD3003BF149 /* SignUpPage.swift in Sources */,
 				1349F1212AD63B61003BF149 /* ContentView.swift in Sources */,
 				1349F11F2AD63B61003BF149 /* FinanceAppApp.swift in Sources */,
 				13D7D34E2AEB3F8300642AD4 /* SplashScreenView.swift in Sources */,
+				134810742B049F6D00703D72 /* SideMenuViewModel.swift in Sources */,
+				134810722B049F4300703D72 /* SideMenuOptionView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
